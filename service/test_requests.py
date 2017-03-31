@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  import Requests
-  return 'Requests version installed: {}'.format(Requests.__version__)
+  import requests
+  return 'Requests version installed: {}'.format(requests.__version__)
