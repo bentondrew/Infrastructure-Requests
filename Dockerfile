@@ -1,4 +1,4 @@
-FROM drewantech/flask:1.0.0
+FROM drewantech/flask:1.2.0
 MAINTAINER Benton Drew <benton.s.drew@drewantech.com>
 USER root
 RUN rm test_hello.py && \
